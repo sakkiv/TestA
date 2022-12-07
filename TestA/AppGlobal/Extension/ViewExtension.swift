@@ -10,9 +10,6 @@ import UIKit
 
 extension UIView {
     public func setButtonUI(){
-        self.layer.borderWidth = 1.5
-        self.layer.borderColor = UIColor.white.cgColor
-        self.layer.cornerRadius = 8
         self.layer.shadowOpacity = 0.3
         self.layer.shadowRadius = 2.0
         self.layer.shadowColor = UIColor.yellow.cgColor
@@ -23,5 +20,11 @@ extension UIView {
         self.layer.shadowRadius = 2.0
         self.layer.shadowColor = UIColor.yellow.cgColor
 
+    }
+
+    func setBorderRadius(borderWidth:CGFloat,borderColor:UIColor,cornerRadius:CGFloat) {
+        self.layer.borderWidth = borderWidth
+        self.layer.borderColor = borderColor.cgColor
+        self.layer.cornerRadius = cornerRadius
     }
 }

@@ -20,6 +20,10 @@ struct Constants {
             static let Nib = "NasaSwipeDetailsPage"
             static let HomeIdentifier = "MyCollectionViewCell"
         }
+    
+    struct urlMessage {
+        static let incorrectURL =   "URL is incorrect"
+    }
 }
 
 

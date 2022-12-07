@@ -36,18 +36,23 @@ class MyCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        backview.layer.cornerRadius = 10
-        backview.layer.borderWidth = 1
-        backview.layer.borderColor = UIColor.lightGray.cgColor
+
         profileImage.backgroundColor = .clear
-        profileImage.layer.cornerRadius = 15
+
         profileImage.clipsToBounds = true
-        idbackView.layer.cornerRadius = idbackView.frame.height / 2
-        idbackView.layer.borderWidth = 1
+
         idbackView.backgroundColor = .black
         countLabel.textColor = .white
         datelabel.font =  .subHeaderBoldFont(ofSize: 16)
         countLabel.font =  .subHeaderBoldFont(ofSize: 12)
+        
+        
+        
+        profileImage.setBorderRadius(borderWidth: 0, borderColor: .clear, cornerRadius: 15)
+        backview.setBorderRadius(borderWidth: 1, borderColor: .lightGray, cornerRadius: 10)
+        idbackView.setBorderRadius(borderWidth: 0, borderColor: .clear, cornerRadius: idbackView.frame.height / 2)
     }
 }
+
+
 

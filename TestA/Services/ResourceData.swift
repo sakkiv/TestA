@@ -19,7 +19,7 @@ extension ResourceData {
         if let items = queryItems {
             urlComps?.queryItems = items
         }
-        guard let url = urlComps?.url else { fatalError("URL is incorrect") }
+        guard let url = urlComps?.url else { fatalError(Constants.urlMessage.incorrectURL) }
         self.url = url
     }
 }
