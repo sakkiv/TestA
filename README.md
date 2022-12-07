@@ -16,10 +16,13 @@ This is the home screen. When it launches, show a scrollable grid of pictures st
 
 This screen displays the full size image along with the metadata like title, description, etc. The user should also be able to swipe to previous or next images from this screen itself.
 
+##### Video
+
+
+https://user-images.githubusercontent.com/3305404/206158876-8ff6bc1c-bd39-462b-9a2a-006e3ed55c26.mp4
+
+
 ##### Screenshots 
- ![ScreenShot1](https://user-images.githubusercontent.com/3305404/206143352-868bb1a3-32ec-4645-b386-f94f81c7a186.png) 
- 
- ![Screen2](https://user-images.githubusercontent.com/3305404/206143503-545c2fcf-bf77-4e41-8d30-4701011358c4.png)
  
  ![screen3](https://user-images.githubusercontent.com/3305404/206143910-042846fb-5045-478f-bcd0-0ebb204b349e.jpg)
  
